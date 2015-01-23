@@ -1,7 +1,7 @@
 # Nod Unity SDK
-Nod Unity SDK
+Nod Unity SDK verison 1.0.1
 
-The current build of the Nod Unity SDK supports PC, iOS, and Android.  Mac support coming soon.
+The current build of the Nod Unity SDK supports PC, iOS, and Android for Unity 4.x, and Mac for Unity 5.x.
 
 After importing the NodUnitySDK.unitypackage, navigate to Assets\Nod\Examples\Scenes\ and load the various scene files to see examples of how you can use our APIs.  
 
@@ -24,5 +24,3 @@ SubscribeToGesture
 SubscribeToPosition2D
 
 You probable want to subscribe only to services you will use to minimize bluetooth traffic.  If you just want button data from one ring and Pose6D data from another ring, instead of subscribing both rings to pose6d and buttons you can subscribe one to pse6D and the other to buttons so both rings arn't broadcasting data they do not need.
-
-
