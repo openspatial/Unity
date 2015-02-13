@@ -1,5 +1,5 @@
 # Nod Unity SDK
-Nod Unity SDK verison 1.0.4
+Nod Unity SDK verison 1.0.5
 
 The current build of the Nod Unity SDK supports PC, iOS, and Android for Unity 4.x, and Mac for Unity 5.x.
 
