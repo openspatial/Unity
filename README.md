@@ -1,5 +1,5 @@
 # Nod Unity SDK
-Nod Unity SDK verison 1.0.5
+Nod Unity SDK verison 1.0.6
 
 The current build of the Nod Unity SDK supports PC, iOS, and Android for Unity 4.x, and Mac for Unity 5.x.
 
@@ -13,8 +13,6 @@ After importing the NodUnitySDK.unitypackage, navigate to Assets\Nod\Examples\Sc
 
 Example1_Pos6d: Shows you how to read the rotation from the ring and apply it to a GameObject in Unity, and also how to read the button state.
 Example2_TouchToMove:  Shows you have to use Position 2D mode and Gestures.
-(There is no example3)
-Example4_MultipleRings: Shows you how you can read data from multiple rings at the same time.
 
 You will need to have our windows service installed to run on windows.  You can find the service installer here:
 https://github.com/openspatial/openspatial-windows/tree/master/Nod%20Installer
