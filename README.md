@@ -10,22 +10,7 @@ Android: 4.3
 
 After importing the NodUnitySDK.unitypackage, navigate to Assets\Nod\Examples\Scenes\ and load the various scene files to see examples of how you can use our APIs.  
 
-Example1_Pos6d: Shows you how to read the rotation from the ring and apply it to a GameObject in Unity, and also how to read the button state.
-Example2_TouchToMove:  Shows you have to use Position 2D mode and Gestures.
-
 You will need to have our windows service installed to run on windows.  You can find the service installer here:
-https://github.com/openspatial/openspatial-windows/tree/master/Nod%20Installer
+https://github.com/openspatial/openspatial-windows/blob/master/Nod%20Installer/setup-1686.exe
 
-Android requires a Nod app installed on the system (And your ring to be paired through the app and not at the system level), sign up for a developer account through www.openspatial.net to get the app.
-
-If you want to quickly apply rotation from the ring to your own GameObjects for your own projects you can drag/drop the "Example1.cs" script from Assets\Nod\Examples\Scripts\ onto it.
-When writing your own apps you can pick and choose what data you want from each ring by subscribing to the various services you are interested in.
-Subscribe(NodSubscriptionType.Orientation);
-for example will report the orientation of the ring.
-
-You probable want to subscribe only to services you will use to minimize bluetooth traffic. If you just want button data from one ring and Pose6D data from another ring,
-instead of subscribing both rings to pose6d and buttons you can subscribe one to pse6D and the other to buttons so both rings arn't broadcasting data they do not need.
-
-Make sure to unsubscribe to everything you subscribed to when you are done with it.
-Unsubscribe(NodSubscriptionType.Orientation);
-for example to unsubscribe to orientation updates.
+Android requires a Nod app installed on the system (And your Nod device to be paired through the app and not at the system level), sign up for a developer account through www.openspatial.net to get the app.
