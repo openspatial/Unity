@@ -1,12 +1,12 @@
 # Nod Unity SDK
-Nod Unity SDK verison 1.0.7
+Nod Unity SDK verison 1.0.9
 
 The current build of the Nod Unity SDK supports PC, iOS, and Android for Unity 5.x
 
 Min sys requirements to operate, in all cases a device that supports Bluetooth LE is required:
-PC: Windows 8.1
+PC: Windows 10
 iOs: iOs 8
-Android: 4.3
+Android: 5
 
 After importing the NodUnitySDK.unitypackage, navigate to Assets\Nod\Examples\Scenes\ and load the various scene files to see examples of how you can use our APIs.  
 
